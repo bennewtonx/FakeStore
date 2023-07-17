@@ -1,10 +1,13 @@
 import React from 'react'
+import { HiOutlineShoppingBag } from "react-icons/hi";
+
 
 function Header() {
   return (
     <div className="header-container">
-        <p>Logo</p>
-        <p>nav links</p>
+        <h1>Fake Store</h1>
+        <h1><HiOutlineShoppingBag /> </h1>
+
     </div>
   )
 }
