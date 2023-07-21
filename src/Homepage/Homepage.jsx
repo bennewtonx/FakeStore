@@ -1,5 +1,5 @@
 import React from 'react'
-import Product_Detail from './Product_Detail'
+import Product_Detail from '../Product_Details/Product_Detail'
 
 function Homepage() {
   return (

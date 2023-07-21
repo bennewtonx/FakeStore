@@ -1,0 +1,25 @@
+.header-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(208, 208, 208);
+    height: 50px;
+    margin: 0 0;
+    padding: 0 2%;
+  
+  }
+
+  .itemQuantity {
+    position: absolute;
+    color: #FFFFFF;
+
+    font-size: 8px;
+
+    background-color: red;
+    border: none;
+    border-radius: 100px;
+    padding: 5px;
+    right: 2.1%;
+    top: 1%
+  }

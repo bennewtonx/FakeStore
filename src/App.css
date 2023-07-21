@@ -4,17 +4,6 @@
   box-sizing: border-box;
 }
 
-.header-container {
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: aqua;
-  height: 50px;
-  margin: 0 2%;
-
-}
-
 .footer-container {
 
   background-color: green;
