@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Product_Detail from './../../Product_Details/Product_Detail';
+import Product_Detail from '../../components/ProductDetails/Product_Detail';
 import './Homepage.css'
 import axios from 'axios';
 
