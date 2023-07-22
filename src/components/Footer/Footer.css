@@ -1,0 +1,21 @@
+.footer-container {
+    height: 66px;
+    background-color: #3A4895;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 41px
+}
+
+.footer-container button {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+}
+
+.footer-container p {
+    color: #FFFFFF;
+    margin-top: 23px;
+}

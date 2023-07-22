@@ -1,21 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Footer from './Footer/Footer';
-import Homepage from './Homepage/Homepage';
-import Header from './Header/Header';
-
+import Header from './components/Header/Header';
+import Homepage from './pages/Homepage/Homepage';
+import Footer from './components/Footer/Footer';
 function App() {
-
-  const myname = "Ben"
 
   return (
     <>
     <Header />
     <Homepage />
-  <div>
-    <h2>hello {myname}</h2>
-  </div>
-  <Footer />
+    <Footer />
     </>
   )
 }

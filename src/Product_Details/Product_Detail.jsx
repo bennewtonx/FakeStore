@@ -1,10 +1,14 @@
 import React from 'react'
+import './Product_Details.css'
 
-function Product_Detail({username, color}) {
+function Product_Detail({product}) {
   return (
-    <div>
-        <h2>Product for {username}</h2>
-        <p>Favpurite color {color}</p>
+    <div className='product-card'>
+      <img src={product.image} />
+      <h3>{product.title}</h3>
+      <p>{product.category}</p>
+      <h4>£{product.price}</h4>
+
     </div>
   )
 }

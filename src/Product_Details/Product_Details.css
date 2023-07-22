@@ -1,0 +1,36 @@
+.product-card h3, h4 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-card p {
+    font-size: 10px;
+    width: 100%;
+    font-weight: 100;
+    color: #949494;
+}
+
+.product-card {
+    background-color: #FFFFFF;
+    height: 243px;
+    width: 183px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+    margin-right: 66px;
+    margin-bottom: 32px;
+    padding-top: 16px;
+
+}
+
+.product-card img {
+    background-color: #FFFFFF;
+    height: 153px;
+    width: 151px;
+    padding: 18px 32px;
+    border: solid;
+    border-width: 1px;
+
+}

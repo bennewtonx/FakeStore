@@ -1,0 +1,7 @@
+.product-container {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
