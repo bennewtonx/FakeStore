@@ -7,7 +7,7 @@ function Product_Detail({product}) {
     <div className='product-card'>
       <HiOutlineHeart />
       <img src={product.image} />
-      <h3>{product.title}</h3>
+      <a href={`/details/${product.id}`}>{product.title}</a>
       <p>{product.category}</p>
        <h4>£{product.price}</h4>
 

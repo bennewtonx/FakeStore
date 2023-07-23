@@ -1,0 +1,13 @@
+.category-container {
+    height: 24px;
+    width: 638px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category-container button {
+    color: #3A4895;
+    background-color: transparent;
+    border: none;
+}
