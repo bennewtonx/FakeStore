@@ -1,6 +1,7 @@
 .product-card h3, h4 {
     font-size: 12px;
     font-weight: 600;
+    
 }
 
 .product-card p {
@@ -8,6 +9,13 @@
     width: 100%;
     font-weight: 100;
     color: #949494;
+}
+
+.product-card a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .product-card {
@@ -31,6 +39,25 @@
     width: 151px;
     padding: 18px 32px;
     border: solid;
+    border-color: #d7d3d3;
     border-width: 1px;
+    border-radius: 12px;
+    margin-left: -40px;
+
+}
+
+.product-card-icon {
+    height: 25px;
+    width: 25px;
+
+    position:relative;
+    top: 5px;
+    left: 120px;
+    z-index: 1;
+
+    color: aliceblue;
+    background-color: #d7d3d3;
+    padding: 2px;
+    border-radius: 60px;
 
 }
