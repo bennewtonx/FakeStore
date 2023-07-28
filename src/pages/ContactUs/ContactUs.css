@@ -1,0 +1,67 @@
+.contactUs-page-container {
+    height: 1092px;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.contactUs-container {
+    height: 783px;
+    width: 863px;
+    margin-top: 94px;
+    padding: 0 300px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+.contactUs-container h1{
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.contactUs-container input{
+    height: 41px;
+    width: 293px;
+    margin: 15px 0;
+    font-size: 14px;
+    
+
+    color: #FFFFFF;
+    
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: #B4B4B4;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+#query {
+
+    height: 105px;
+}
+
+.contactUs-container button {
+    height: 41px;
+    width: 156px;
+    background-color: #5264C3;
+    border: transparent;
+    color: #FFFFFF;
+    margin-top: 15px;
+
+
+}
+
+.form-container {
+
+    text-align: center;
+}

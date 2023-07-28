@@ -10,6 +10,7 @@
     height: 783px;
     width: 863px;
     margin-top: 94px;
+    padding: 70px 0;
 
 
     display: flex;
@@ -17,6 +18,8 @@
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
+    overflow-y: scroll;
+
 
 
 }

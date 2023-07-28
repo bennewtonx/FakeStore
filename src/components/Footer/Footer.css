@@ -15,7 +15,11 @@
     color: #FFFFFF;
 }
 
-.footer-container p {
+.footer-container p, a {
     color: #FFFFFF;
     margin-top: 23px;
+}
+
+.footer-container a {
+    text-decoration: none;
 }

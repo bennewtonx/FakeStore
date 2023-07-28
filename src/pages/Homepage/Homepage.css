@@ -5,3 +5,19 @@
     justify-content: center;
 
 }
+
+.category-container {
+    height: 24px;
+    width: 638px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #FAFAFA;
+}
+
+.category-container button {
+    color: #3A4895;
+    background-color: ;
+    border: none;
+}
