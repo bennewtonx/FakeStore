@@ -1,14 +1,14 @@
 .contactUs-page-container {
-    height: 1092px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     background-color: #FAFAFA;
 }
 
 .contactUs-container {
-    height: 783px;
-    width: 863px;
-    margin-top: 94px;
+    height: 483px;
+    width: 663px;
+    margin: 3% 0 3% 0;
     padding: 0 300px;
 
 
