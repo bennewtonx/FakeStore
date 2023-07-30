@@ -40,7 +40,7 @@ function Homepage() {
   useEffect(
     ()=>{
       //API call to fetch filtered products
-    const url = filterCategory==="all"?
+    const url = filterCategory===""?
     "https://fakestoreapi.com/products"
     :
     `https://fakestoreapi.com/products/category/${filterCategory}`
@@ -60,7 +60,7 @@ function Homepage() {
 
 <div className='category-container'>
 
-<button id='all'onClick={filterSelectChange}>All</button>
+<button id=''onClick={filterSelectChange}>All</button>
 <button id={"electronics"}onClick={filterSelectChange}>{category[0]}</button>
 <button id={"jewelery"}onClick={filterSelectChange}>{category[1]}</button>
 <button id={"men's clothing"}onClick={filterSelectChange}>{category[2]}</button>
