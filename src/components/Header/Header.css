@@ -19,6 +19,11 @@
   
   }
 
+  .cart-icon {
+    color: #3A4895;
+    font-size: 30px;
+  }
+
   .itemQuantity {
     position: absolute;
     color: #FFFFFF;
@@ -31,5 +36,5 @@
     border-radius: 100px;
     padding: 5px;
     right: 2.1%;
-    top: 1%
+    top: 2.5%
   }

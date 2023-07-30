@@ -1,0 +1,18 @@
+.cart-items{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    border-bottom: solid;
+    border-color: #D9D9D9;
+}
+
+.cart-items img{
+    width: 100px;
+    height: 100px;
+}
+
+.cart-items h3{
+    width: 6%;
+    font-size: 14px;
+}
