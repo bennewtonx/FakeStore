@@ -1,6 +1,7 @@
 .product-card h3, h4 {
     font-size: 12px;
     font-weight: 600;
+    margin-left: 10%;
     
     
 }
@@ -16,7 +17,7 @@
     font-weight: 100;
     color: #949494;
     text-align: left;
-    text-indent: 10px;
+    margin-left: 10%;
 }
 
 .product-card a {
@@ -25,6 +26,9 @@
     font-weight: 600;
     font-size: 12px;
     margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 .product-card {
@@ -35,7 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    text-align: left;
+    text-align: start;
 
     margin-right: 2%;
     margin-bottom: 2%;
