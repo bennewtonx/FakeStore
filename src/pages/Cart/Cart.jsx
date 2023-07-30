@@ -6,7 +6,7 @@ import CartItem from './../../components/CartItem/CartItem';
 import Modal from 'react-modal';
 
 function Cart({}) {
-    const { cart } = useContext(CartContext);
+    const {cart} = useContext(CartContext);
 
     //add up all money in cart
     const getTotal = () =>{
