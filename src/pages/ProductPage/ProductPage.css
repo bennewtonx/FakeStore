@@ -7,7 +7,7 @@
 }
 
 .specific-product-container {
-    height: 783px;
+    height: fit-content;
     width: 863px;
     margin-top: 94px;
     padding: 70px 0;
@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    overflow-y: scroll;
+
 
 
 
