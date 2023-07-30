@@ -10,18 +10,21 @@
 }
 
 .cart-box {
-    height: 550px;
-    width: 700px;
+    min-height: 550px;
+    max-width: 700px;
+    width: 90%;
     background-color: #FFFFFF;
     margin: 3% 0 3% 0;
+    display: flex;
+    flex-direction: column;
+
 
 
 }
 
 .cart-titles {
-    width: 700px;
+    max-width: 700px;
     display: flex;
-    flex-wrap: wrap;
     
     justify-content: space-around;
     background-color: #FFFFFF; 
@@ -36,7 +39,12 @@
 
     margin: 1% 5%;
     overflow: scroll;
+    
+}
 
+.item-and-total-container {
+    display: flex;
+    flex-direction: column;
 }
 
 ::-webkit-scrollbar {
