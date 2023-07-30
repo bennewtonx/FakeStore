@@ -1,7 +1,7 @@
-import React, {useContext} from 'react'
-import { CartContext } from '../../contexts/CartContext'
-import './CartItem.css'
-import { MdDelete } from "react-icons/Md"
+import React, {useContext} from 'react';
+import { CartContext } from '../../contexts/CartContext';
+import './CartItem.css';
+import { MdDelete } from "react-icons/Md";
 
 
 function CartItem({ product }) {
